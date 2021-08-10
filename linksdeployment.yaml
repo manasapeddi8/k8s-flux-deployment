@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: links-container
-        image: manasapeddi/linksapp:latest
+        image: manasapeddi/linksapp:1.0
         ports:
         - containerPort: 80
