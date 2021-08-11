@@ -17,6 +17,5 @@ spec:
       containers:
       - name: links-container
         image: manasapeddi/linksapp:1.0
-        args: [/bin/sh, -c, 'i=0; while true; do echo "$i: Hello"; i=$((i+1)); sleep 1; done']
         ports:
         - containerPort: 80
